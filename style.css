@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #EAF6FF;
+    color: #34495E;
+    line-height: 1.8;
+}
+
+/* Main Heading */
+h1 {
+    color: #4682B4;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #6A9BC3;
+    font-size: 24px;
+}
+
+h3 {
+    color: #4682B4;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #B9DFFF;
+    padding: 18px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #24527A;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    background-color: #6495ED;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* Images */
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 25px;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 5px 15px rgba(70, 130, 180, 0.2);
+    margin: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 17px;
+    margin: 20px;
+}
+
+/* Links and Buttons */
+a {
+    color: #4682B4;
+}
+
+body > center > a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #87CEEB;
+    color: #FFFFFF;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+body > center > a:hover {
+    background-color: #4682B4;
+    transform: translateY(-3px);
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #B9DFFF;
+    margin: 25px;
+}
+
+/* Cute Heart Decoration */
+h1::after {
+    content: "";
+}
+
+/* Footer */
+footer {
+    background-color: #B9DFFF;
+    color: #34495E;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    img {
+        width: 85%;
+    }
+}

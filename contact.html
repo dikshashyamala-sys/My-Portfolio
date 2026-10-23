@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Dhiksha R</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="#EAF6FF">
+
+    <center>
+        <h1>♡ Contact Me ♡</h1>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Me</a> |
+            <a href="hobbies.html">Hobbies</a> |
+            <a href="skills.html">Skills</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <hr>
+
+        <h2>Let's Connect!</h2>
+
+        <p>
+            Feel free to contact me for communication,
+            learning, and project discussions.
+        </p>
+
+        <h3>📧 Email</h3>
+        <p>
+            <a href="mailto:dikshashyamala@gmail.com">
+                dikshashyamala@gmail.com
+            </a>
+        </p>
+
+        <h3>📍 Location</h3>
+        <p>Chennai, India</p>
+
+        <h3>💻 GitHub</h3>
+        <p>
+            <a href="https://github.com/dhiksha"
+               target="_blank"
+               rel="noopener noreferrer">
+                github.com/dhiksha
+            </a>
+        </p>
+
+        <hr>
+
+        <h2>Send Me a Message</h2>
+
+        <form id="contactForm" onsubmit="validateForm(event)">
+
+            <p>
+                <label for="name">Your Name</label><br>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required>
+            </p>
+
+            <p>
+                <label for="email">Your Email</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+            </p>
+
+            <p>
+                <label for="message">Your Message</label><br>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="30"
+                    placeholder="Write your message"
+                    required></textarea>
+            </p>
+
+            <button type="submit">Submit Message</button>
+
+            <p id="result" role="status"></p>
+
+        </form>
+
+        <hr>
+
+        <p>♡ Thank you for visiting my portfolio! ♡</p>
+        <p>© 2026 Dhiksha R</p>
+    </center>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
