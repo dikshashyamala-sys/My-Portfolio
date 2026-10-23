@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Dhiksha R</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f8ff;
+            color: #34495e;
+        }
+
+        nav {
+            background: #cce7ff;
+            padding: 18px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #315b7d;
+            text-decoration: none;
+            margin: 8px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 35px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a86b8;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .project-list {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(260px, 350px));
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 18px;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px #d0e5f5;
+            text-decoration: none;
+            color: #34495e;
+            display: block;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px #b5d5ed;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            display: block;
+        }
+
+        .project-card h2 {
+            color: #4a86b8;
+            font-size: 21px;
+        }
+
+        .project-card p {
+            line-height: 1.6;
+        }
+
+        .technology {
+            color: #477ca8;
+            font-weight: bold;
+        }
+
+        .github-link {
+            color: #315b7d;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>My Projects ♡</h1>
+
+        <p class="intro">
+            Welcome to my project collection!
+            Here are my projects and ideas in Information Technology.
+        </p>
+
+        <div class="project-list">
+
+            <!-- Scholarship Project -->
+            <a
+                href="https://github.com/dikshashyamala-sys/java-project"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-card"
+            >
+                <img
+                    src="https://images.shiksha.com/mediadata/images/articles/1788781999phpBRfiK9.jpeg"
+                    alt="Scholarship Eligibility Project"
+                >
+
+                <h2>Scholarship Eligibility Verification</h2>
+
+                <p>
+                    A project to check scholarship eligibility
+                    and organize student applications based on
+                    marks and family income.
+                </p>
+
+                <p class="technology">
+                    Technologies: HTML, CSS, Java
+                </p>
+
+                <p class="github-link">
+                    View Project on GitHub ↗
+                </p>
+            </a>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with ♡ by Dhiksha R</p>
+    </footer>
+
+</body>
+</html>
